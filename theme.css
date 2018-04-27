@@ -1,18 +1,17 @@
 div.container-fluid {
     min-width: 101%;
-    border: 1px #A9A9A9;
     margin-left: -8px;
+    margin-right: -8px;
     margin-bottom: -8px;
     margin-top: -6px;
 }
 
 header {
-    padding: 1em;
+    padding: 3% 4%;
     color: #FFFFFF;
     background-image: url('full.jpg');
     background: rgba(0,0,0,0.7);
     clear: left;
-    width:  95.5%;
     text-align: left;
     font-style: italic;
     font-size: 30px;
@@ -36,15 +35,17 @@ header {
 
 h1{
 	color: #EAEAEA;
-	text-shadow: 4px 5px 10px black;
+	text-shadow: 4px 5px 10px #4CAF50;
 	margin-left: 40px;
 	font-family: Times;
+    font-size: 67px;
 	font-style: initial;
+    cursor: pointer;
 }
 
 h1:hover{
 	margin-left: 40px;
-	text-shadow: 5px 5px 10px #4CAF50;
+	text-shadow: 5px 5px 10px #4CFF5F;
 	color: white;
 	position: relative;
 }
@@ -53,7 +54,9 @@ h2{
 	color: #EAEAEA;
 	text-shadow: 3px 3px 10px black;
 	font-family: Lucida Sans Unicode;
-	font-size: 36px;
+	font-size: 40px;
+    margin-left: 1%;
+    margin-top: -.5%;
 }
 
 footer{
@@ -66,7 +69,6 @@ footer{
     text-align: center;
     font-style: italic;
     font-size: 1.5em;
-    width: 98.2%;
     font-family: Helvetica Neue;
 }
 
@@ -122,6 +124,8 @@ li.ls a {
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
 li.ls a:hover:not(.active) {

@@ -287,7 +287,9 @@ div::-webkit-scrollbar-thumb {
     width: 470px;
     height: 530px; /* Could be more or less, depending on screen size */
 }
-
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+}
 /* The Close Button */
 .close {
     color: #aaa;

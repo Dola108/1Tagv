@@ -288,7 +288,7 @@ div::-webkit-scrollbar-thumb {
     height: 530px; /* Could be more or less, depending on screen size */
 }
 @media (max-width: @screen-xs-min) {
-  .modal-dialog { max-width: 100px; width: @modal-sm; }
+  .modal-xs { width: @modal-sm; }
 }
 /* The Close Button */
 .close {
